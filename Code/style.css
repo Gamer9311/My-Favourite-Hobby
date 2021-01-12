@@ -43,3 +43,11 @@
 .link:hover {
     background-color: dodgerblue;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
