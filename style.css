@@ -1,0 +1,53 @@
+#MP {
+    text-align: center;
+    background: linear-gradient(90deg, #5901be 10%, #8000ff 27%, #9455ed 49%, #4581dd 69%, #00d4ff 100%);
+}
+
+#book {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#welcome {
+    color: white;
+    font-size: 25px;
+}
+
+#text {
+    font-size: 20px;
+}
+
+#end {
+    font-size: 15px;
+}
+
+#menu {
+    list-style: none;
+    z-index: 10;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.link {
+    padding-top: 5px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    padding-right: 9px;
+    float: left;
+    color: blue;
+}
+
+.link:hover {
+    background-color: dodgerblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
