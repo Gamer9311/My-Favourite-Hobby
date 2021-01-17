@@ -51,3 +51,19 @@ a {
 a:hover {
     color: red;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+#ins {
+    cursor: pointer;
+}
+
+#jkrowling {
+    transition: transform .3s;
+}
+
+#jkrowling:hover {
+    transform: scale(0.5)
+}
